@@ -1,12 +1,37 @@
+.container {
+    text-align: left;
+}
 
-/* 
+.jumbotron {
+    background-color: lightgray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar {
+    background-color: rgb(94, 94, 94);
+}
 
-*/
+@media only screen and (max-width: 575px) {
+    .single-card-image{
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .single-card-image{
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .single-card-image{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .single-card-image{
+        height: 400px;
+    }
+}
